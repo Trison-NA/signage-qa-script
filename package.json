@@ -1,0 +1,32 @@
+{
+  "name": "@trison/signage-qa",
+  "version": "0.1.0",
+  "description": "Shared Playwright QA for si9n signage templates: config, si9n player mock, network mock, layout checks and baseline test suites.",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "src/index.js",
+  "bin": {
+    "signage-qa-serve": "bin/serve.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "playwright test && playwright test -c test/template",
+    "test:unit": "playwright test",
+    "test:template": "playwright test -c test/template"
+  },
+  "peerDependencies": {
+    "@playwright/test": ">=1.45.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "si9n-sdk": "https://player.si9n.io/npm/si9n-sdk-1.7.0.tgz"
+  },
+  "engines": {
+    "node": ">= 20"
+  }
+}

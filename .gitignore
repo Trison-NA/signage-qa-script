@@ -1,0 +1,8 @@
+node_modules/
+test-results/
+playwright-report/
+
+# test template run (test/template): results, report and the copied si9n-sdk build
+test/template/test-results/
+test/template/report/
+test/template/site/si9n-sdk.min.js

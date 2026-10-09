@@ -1,0 +1,14 @@
+{
+  "duration": "end",
+  "sizes": [
+    { "w": 1080, "h": 1920 },
+    { "w": 1920, "h": 1080 }
+  ],
+  "template": {
+    "fields": [
+      { "key": "title", "label": "Title", "type": "text", "default": "Upcoming" },
+      { "key": "refreshMinutes", "label": "Refresh time in minutes", "type": "text", "default": "20" },
+      { "key": "defect", "label": "Test only: known bug to switch on", "type": "text", "default": "" }
+    ]
+  }
+}
