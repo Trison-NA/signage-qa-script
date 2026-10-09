@@ -59,7 +59,7 @@ What happens on `npx playwright test`:
 **1. Install.** Pin a tag (`#v0.1.0`), never a branch, so an old project keeps passing until someone upgrades it on purpose.
 
 ```bash
-npm install -D @playwright/test github:lunaticosacs-trison/signage-qa-script#v0.1.0
+npm install -D @playwright/test github:Trison-NA/signage-qa-script
 ```
 
 ```bash
